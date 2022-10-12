@@ -16,7 +16,6 @@ function getSeason(date) {
   if (!Date.parse(date)) {
     throw new Error('Invalid date!');
   }
-  date.getUTCSeconds()
   try {
     date.getUTCSeconds()
   } catch { 

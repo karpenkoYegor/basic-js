@@ -41,7 +41,6 @@ function repeater(str, options) {
   for (let index = 0; index < options["repeatTimes"]; index++) {
     result.push(addition);
   }
-  console.debug(result.join(options["separator"]));
   return result.join(options["separator"]);
 }
 

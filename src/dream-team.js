@@ -23,7 +23,7 @@ function createDreamTeam(members) {
     }
   }
   result = result.split("").sort((a, b) => {
-    return a>b ? 1 : -1;
+    return a > b ? 1 : -1;
   })
   return result.join("");
 }

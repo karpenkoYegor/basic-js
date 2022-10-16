@@ -36,7 +36,6 @@ function getDNSStats(domains) {
   result = {}
   for (let index = 0; index < domains.length; index++) {
     const dns = getDNS(domains[index]);
-    console.debug(dns);
     for (const item of dns) {
       if(item in result){
         result[item]++;
